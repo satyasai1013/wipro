@@ -1,0 +1,101 @@
+Microsoft Windows [Version 10.0.22631.3593]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ksaty\Desktop\dfgh>git init
+Initialized empty Git repository in C:/Users/ksaty/Desktop/dfgh/.git/
+
+C:\Users\ksaty\Desktop\dfgh>git remote add origin https://github.com/satyasai1013/wipro.git
+
+C:\Users\ksaty\Desktop\dfgh>git add .
+
+C:\Users\ksaty\Desktop\dfgh>git commmit -m "first source"
+git: 'commmit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+C:\Users\ksaty\Desktop\dfgh>git commit -m "first source"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ksaty@LAPTOP-7TLR9B4B.(none)')
+
+C:\Users\ksaty\Desktop\dfgh> --global user.email kamireddysatyasai@pec.edu
+'--global' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ksaty\Desktop\dfgh> --global user.email "kamireddysatyasai@pec.edu"
+'--global' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ksaty\Desktop\dfgh> --global user.email "kamireddysatyasai@pec.edu"
+'--global' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ksaty\Desktop\dfgh>git config --global user.email "kamireddysatyasai@pec.edu"
+
+C:\Users\ksaty\Desktop\dfgh>git config --global user.name "satyasai1013"
+
+C:\Users\ksaty\Desktop\dfgh>git commit -m "first source"
+[master (root-commit) be5eac5] first source
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+
+C:\Users\ksaty\Desktop\dfgh>git branch -M sai
+
+C:\Users\ksaty\Desktop\dfgh>push -u origin
+'push' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ksaty\Desktop\dfgh>git push -u origin
+fatal: The current branch sai has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin sai
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\ksaty\Desktop\dfgh>git branch -M wipro
+
+C:\Users\ksaty\Desktop\dfgh>git push -u origin
+fatal: The current branch wipro has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin wipro
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\ksaty\Desktop\dfgh>git push -u origin wipro
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 217 bytes | 108.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/satyasai1013/wipro.git
+ * [new branch]      wipro -> wipro
+branch 'wipro' set up to track 'origin/wipro'.
+
+C:\Users\ksaty\Desktop\dfgh>git push -u origin wipro
+branch 'wipro' set up to track 'origin/wipro'.
+Everything up-to-date
+
+C:\Users\ksaty\Desktop\dfgh>git branch -M wipro
+
+C:\Users\ksaty\Desktop\dfgh>git push -u origin wipro
+branch 'wipro' set up to track 'origin/wipro'.
+Everything up-to-date
+
+C:\Users\ksaty\Desktop\dfgh>
